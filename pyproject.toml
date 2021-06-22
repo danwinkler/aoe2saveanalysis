@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aoe2savegame"
+version = "0.1.0"
+description = ""
+authors = ["Dan Winkler <dan@danwink.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mgz = "^1.5.0"
+plumbum = "^1.7.0"
+rich = "^10.4.0"
+PyYAML = "^5.4.1"
+diskcache = "^5.2.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
